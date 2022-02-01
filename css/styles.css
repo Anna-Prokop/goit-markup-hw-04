@@ -220,6 +220,7 @@ h1 {
 }
 
 .lorem-ipsum-container-icon {
+  display: flex;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -228,7 +229,9 @@ h1 {
 .lorem-ipsum-icon {
   width: 70px;
   height: 70px;
+  align-items: center;
 }
+
 .section-lorem-title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -336,6 +339,28 @@ h1 {
   letter-spacing: 0.03em;
   color: #757575;
   padding-bottom: 30px;
+}
+
+.social-media {
+  width: 206px;
+}
+
+.instagram-icon,
+.twitter-icon,
+.facebook-icon,
+.linkedin-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-media-list {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-item {
+  width: 44px;
+  height: 44px;
 }
 
 /*====footer====*/
