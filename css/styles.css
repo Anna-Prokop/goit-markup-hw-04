@@ -142,8 +142,6 @@ span {
   width: 110px;
 }
 
-
-
 /*====END HEADER====*/
 
 /*====section HERO====*/
@@ -221,6 +219,16 @@ h1 {
   width: 270px;
 }
 
+.lorem-ipsum-container-icon {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+
+.lorem-ipsum-icon {
+  width: 70px;
+  height: 70px;
+}
 .section-lorem-title {
   font-family: var(--main-font);
   font-weight: 700;
