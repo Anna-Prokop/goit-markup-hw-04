@@ -345,17 +345,41 @@ h1 {
   width: 206px;
 }
 
-.instagram-icon,
-.twitter-icon,
-.facebook-icon,
-.linkedin-icon {
-  width: 20px;
-  height: 20px;
-}
-
 .social-media-list {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.social-media-item {
+  border-radius: 50%;
+}
+
+.social-media-link {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 3px solid #000000;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+  width: 44px;
+  height: 44px;
+}
+
+.social-icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.social-media-link:hover,
+.social-media-link:focus,
+.social-icon:hover,
+.social-icon:focus {
+  fill: #ffffff;
+  background-color: var(--main-color);
 }
 
 .social-media-item {
