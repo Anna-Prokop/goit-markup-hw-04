@@ -224,6 +224,8 @@ h1 {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
+  align-items: center;
+  justify-content: center;
 }
 
 .lorem-ipsum-icon {
@@ -359,19 +361,11 @@ h1 {
   display: flex;
   background-color: #ffffff;
   border-radius: 50%;
-  border: 3px solid #000000;
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
   width: 44px;
   height: 44px;
-}
-
-.social-icon {
-  display: flex;
-  width: 20px;
-  height: 20px;
-  fill: #afb1b8;
 }
 
 .social-media-link:hover,
@@ -382,9 +376,35 @@ h1 {
   background-color: var(--main-color);
 }
 
-.social-media-item {
-  width: 44px;
-  height: 44px;
+.social-icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+/*====section our clients====*/
+
+.our-clients-list {
+  display: flex;
+  align-items: center;
+}
+.our-clients-item {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  background-color: #ffffff;
+  border: 1px solid #afb1b8;
+  align-items: center;
+  justify-content: center;
+}
+.our-clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+.our-clients-icon {
+  display: flex;
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
 }
 
 /*====footer====*/
@@ -437,6 +457,55 @@ h1 {
   color: var(--main-color);
 }
 
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-text {
+  font-family: var(--main-font);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footer-social-media {
+  width: 206px;
+}
+.footer-social-media-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social-media-item {
+  border-radius: 50%;
+}
+
+.footer-social-media-link {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: #ffffff;
+  width: 44px;
+  height: 44px;
+}
+
+.footer-social-media-link:hover,
+.footer-social-media-link:focus,
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+  fill: #ffffff;
+  background-color: var(--main-color);
+}
+
+.footer-social-icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
 /*====PORTFOLIO BOOKMARK====*/
 
 .portfolio-button {
