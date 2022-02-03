@@ -338,11 +338,11 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-bottom: 30px;
 }
 
 .social-media {
   width: 206px;
+  margin: 16px 32px 30px;
 }
 
 .social-media-list {
