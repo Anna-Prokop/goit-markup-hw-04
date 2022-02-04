@@ -142,6 +142,10 @@ span {
   width: 110px;
 }
 
+.mail-number-list {
+  display: flex;
+  align-items: center;
+}
 /*====END HEADER====*/
 
 /*====section HERO====*/
@@ -424,8 +428,8 @@ h1 {
   text-decoration: none;
 }
 .contact-logo-padding {
-  padding-top: 45px;
-  padding-bottom: 20px;
+  margin-top: 58px;
+  margin-bottom: 20px;
 }
 .main-address {
   font-family: var(--main-font);
@@ -462,16 +466,20 @@ h1 {
   align-items: center;
 }
 
+.flex-container-right {
+  width: 206px;
+  margin-left: 70px;
+  margin-top: 72px;
+  margin-bottom: 100px;
+}
 .social-media-text {
   font-family: var(--main-font);
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
+  padding-bottom: 20px;
 }
 
-.footer-social-media {
-  width: 206px;
-}
 .footer-social-media-list {
   display: flex;
   align-items: center;
@@ -499,6 +507,7 @@ h1 {
 .footer-social-icon:focus {
   fill: #ffffff;
   background-color: var(--main-color);
+  cursor: url("../images/finger3.svg");
 }
 
 .footer-social-icon {
