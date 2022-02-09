@@ -169,6 +169,7 @@ span {
     url(../images/img_section_hero.jpg);
   background-repeat: no-repeat;
   height: 600px;
+  margin: auto;
 }
 
 h1 {
