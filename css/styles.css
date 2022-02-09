@@ -170,6 +170,7 @@ span {
   background-repeat: no-repeat;
   height: 600px;
   margin: auto;
+  max-width: 1600px;
 }
 
 h1 {
